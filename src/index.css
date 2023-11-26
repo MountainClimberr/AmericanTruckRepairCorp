@@ -1,0 +1,97 @@
+/* Home.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #1d1d1d;
+  color: #fff;
+}
+
+
+
+/* Hero-section.css */
+
+.hero-container {
+  height: 100vh;
+  width: 100%;
+  text-align: left;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(assets/SemiTruck.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  
+}
+
+/* NavBar.css */
+.navbar {
+  height: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  cursor: pointer;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+}
+
+.row {
+  display: flex;
+  height: 78%;
+  align-items: center;
+}
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+  color: #fff;
+  font-size: 90px;
+}
+p{
+  color: #d6d6d6;
+  font-size: 21px;
+  line-height: 15px;
+}
+
+button {
+  background: #FF914D;
+  color: white;
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #FF914D;
+}
+
+
+
