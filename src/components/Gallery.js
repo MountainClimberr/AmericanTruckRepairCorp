@@ -1,9 +1,9 @@
 // Gallery.js
 
 import React from 'react';
-import Image1 from '../gallery/Image1.JPG';
-import Image2 from '../gallery/Image2.JPG';
-import Image3 from '../gallery/Image3.JPG';
+import Image1 from '../gallery_pictures/Image1.JPG';
+import Image2 from '../gallery_pictures/Image2.JPG';
+import Image3 from '../gallery_pictures/Image3.JPG';
 
 import '../gallery.css'; // Import your stylesheet
 

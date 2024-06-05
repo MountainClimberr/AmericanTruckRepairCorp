@@ -1,0 +1,41 @@
+/* Service.css */
+
+.service-section {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.service-card {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 20px;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+}
+
+.service-card:hover {
+  background-color: #FF914D; /* Change background color on hover */
+}
+
+.service-card-number {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  opacity: 0.3; /* Make number semi-transparent by default */
+  transition: opacity 0.3s ease; /* Add transition effect */
+}
+
+.service-card:hover .service-card-number {
+  opacity: 1; /* Make number fully opaque on hover */
+}
+
+.service-card-body {
+  transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.service-card:hover .service-card-body {
+  transform: translateY(-100%); /* Move service name up on hover */
+}
