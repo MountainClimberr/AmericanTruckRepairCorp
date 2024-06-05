@@ -1,22 +1,22 @@
 // NavBar.js
 
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll'; // Import Link from react-scroll
 import TruckLogo from '../assets/TruckLogo.png';
 
 function NavBar() {
   return (
-      <div className='navbar'>
-        <img src={TruckLogo} className='logo' alt=''/>
-        <nav>
-          <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/appointments">Appointments</Link></li>
-            <li><Link to="/gallery">Gallery</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
-          </ul>
-        </nav>
-      </div>
+    <div className='navbar'>
+      <img src={TruckLogo} className='logo' alt='' />
+      <nav>
+        <ul>
+          {/* Use ScrollLink from react-scroll instead of Link from react-router-dom */}
+          <li><ScrollLink to="gallery" smooth={true} duration={500}>Gallery</ScrollLink></li>
+          <li><ScrollLink to="testimonials" smooth={true} duration={500}>Testimonials</ScrollLink></li>
+          <li><ScrollLink to="contact" smooth={true} duration={500}>Contact</ScrollLink></li>
+        </ul>
+      </nav>
+    </div>
   );
 }
 

@@ -1,0 +1,55 @@
+/* contact.css */
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    max-width: 100%; /* Adjust as needed */
+  }
+  
+  .contact-section {
+    width: 800; /* Adjust as needed */
+    margin: 0 50px; /* Add margin for spacing */
+  }
+  
+  .contact-section h3 {
+    color: #FF914D; /* Adjust heading color */
+    
+  }
+  
+  .contact-section p {
+    margin: 10px 0;
+    line-height: 2em;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .contact-section button, .contact-section a {
+    background-color: #FF914D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  
+  .contact-section button:hover, .contact-section a:hover {
+    background-color: #fff;
+    color: #FF914D;
+  }
+  
