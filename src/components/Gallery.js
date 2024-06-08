@@ -5,7 +5,7 @@ import Image1 from '../gallery_pictures/Image1.JPG';
 import Image2 from '../gallery_pictures/Image2.JPG';
 import Image3 from '../gallery_pictures/Image3.JPG';
 
-import '../gallery.css'; // Import your stylesheet
+import '../gallery.css';
 
 function Gallery() {
   const galleryImages = [Image1, Image2, Image3];

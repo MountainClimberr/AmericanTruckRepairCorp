@@ -3,7 +3,7 @@ import Gallery from './Gallery';
 import Contact from './Contact';
 import NavBar from './NavBar';
 import Testimonials from './Testimonials.js';
-import { animateScroll as scroll } from 'react-scroll'; // Import ScrollLink and scroll from react-scroll
+import { animateScroll as scroll } from 'react-scroll';
 
 function Home() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -21,11 +21,11 @@ function Home() {
   }, []);
 
   const handleCallNow = () => {
-    window.location.href = 'tel:203-223-5795'; // Replace with your actual phone number
+    window.location.href = 'tel:203-223-5795'; 
   };
 
   const scrollToTop = () => {
-    scroll.scrollToTop(); // Scroll to top using the animateScroll function
+    scroll.scrollToTop(); 
   };
 
   const heroOpacity = 1 - Math.min(scrollPosition / 750, 1);
@@ -56,7 +56,6 @@ function Home() {
         <Contact />
       </section>
 
-      {/* Add a scroll link to the top of the page */}
       <div className="scroll-to-top" onClick={scrollToTop}>
         {/* Render the SVG icon */}
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">

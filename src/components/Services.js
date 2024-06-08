@@ -36,7 +36,7 @@ const Service = () => {
               </div>
             </div>
           </div>
-          {/* Add more cards for other services */}
+          
         </div>
       </div>
     </section>
