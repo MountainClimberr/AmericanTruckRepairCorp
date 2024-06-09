@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/AmericanTruckRepairCorp/static/css/main.ae580186.css",
-    "main.js": "/AmericanTruckRepairCorp/static/js/main.71122daf.js",
-    "static/media/SemiTruck.jpg": "/AmericanTruckRepairCorp/static/media/SemiTruck.d7624b6e8fd5fd9421a2.jpg",
-    "static/media/Image3.JPG": "/AmericanTruckRepairCorp/static/media/Image3.ae45640b175682160ac4.JPG",
-    "static/media/Image2.JPG": "/AmericanTruckRepairCorp/static/media/Image2.e33d38e116678a55057e.JPG",
-    "static/media/Image1.JPG": "/AmericanTruckRepairCorp/static/media/Image1.bc393861a04cbdc79655.JPG",
-    "static/media/TruckLogo.png": "/AmericanTruckRepairCorp/static/media/TruckLogo.fd1f9d743703766aa288.png",
-    "index.html": "/AmericanTruckRepairCorp/index.html",
-    "main.ae580186.css.map": "/AmericanTruckRepairCorp/static/css/main.ae580186.css.map",
-    "main.71122daf.js.map": "/AmericanTruckRepairCorp/static/js/main.71122daf.js.map"
+    "main.css": "/static/css/main.07887773.css",
+    "main.js": "/static/js/main.87aaa6da.js",
+    "static/media/SemiTruck.jpg": "/static/media/SemiTruck.d7624b6e8fd5fd9421a2.jpg",
+    "static/media/Image3.JPG": "/static/media/Image3.ae45640b175682160ac4.JPG",
+    "static/media/Image2.JPG": "/static/media/Image2.e33d38e116678a55057e.JPG",
+    "static/media/Image1.JPG": "/static/media/Image1.bc393861a04cbdc79655.JPG",
+    "static/media/TruckLogo.png": "/static/media/TruckLogo.fd1f9d743703766aa288.png",
+    "index.html": "/index.html",
+    "main.07887773.css.map": "/static/css/main.07887773.css.map",
+    "main.87aaa6da.js.map": "/static/js/main.87aaa6da.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae580186.css",
-    "static/js/main.71122daf.js"
+    "static/css/main.07887773.css",
+    "static/js/main.87aaa6da.js"
   ]
 }
