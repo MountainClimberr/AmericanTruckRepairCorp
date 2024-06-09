@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.07887773.css",
+    "main.css": "/static/css/main.685cf101.css",
     "main.js": "/static/js/main.87aaa6da.js",
     "static/media/SemiTruck.jpg": "/static/media/SemiTruck.d7624b6e8fd5fd9421a2.jpg",
     "static/media/Image3.JPG": "/static/media/Image3.ae45640b175682160ac4.JPG",
@@ -8,11 +8,11 @@
     "static/media/Image1.JPG": "/static/media/Image1.bc393861a04cbdc79655.JPG",
     "static/media/TruckLogo.png": "/static/media/TruckLogo.fd1f9d743703766aa288.png",
     "index.html": "/index.html",
-    "main.07887773.css.map": "/static/css/main.07887773.css.map",
+    "main.685cf101.css.map": "/static/css/main.685cf101.css.map",
     "main.87aaa6da.js.map": "/static/js/main.87aaa6da.js.map"
   },
   "entrypoints": [
-    "static/css/main.07887773.css",
+    "static/css/main.685cf101.css",
     "static/js/main.87aaa6da.js"
   ]
 }
